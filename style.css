@@ -1,0 +1,33 @@
+
+
+* {
+  margin: 0 ;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  
+  width: 100%;
+}
+
+.head {
+  display:flex;
+  align-items: center;
+  justify-content:space-between ; 
+
+}
+
+
+.head .menu-bar{
+  
+  width: 50px;
+}
+.head .logo-icon {
+  
+  width: 50px;
+}
+
+img {
+  width: 100%;
+}
