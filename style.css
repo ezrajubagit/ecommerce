@@ -15,19 +15,55 @@
   display:flex;
   align-items: center;
   justify-content:space-between ; 
-
-}
-
-
-.head .menu-bar{
+  padding: 10px;
   
-  width: 50px;
+
 }
-.head .logo-icon {
+
+.container .head .left-nav , .right-nav {
+  
+  display:flex ;
+  align-items: center;
+  justify-content: space-between;
+}
+
+
+.head .left-nav .menu-bar{
+  
+  width: 30px;
+}
+.head .left-nav .logo-icon {
   
   width: 50px;
 }
 
 img {
   width: 100%;
+}
+
+.container .search-box {
+  
+  display: flex;
+ align-items: center;
+ justify-content: center;
+}
+
+
+.container .search-box input {
+  
+  
+  width: 96%;
+  padding: 10px 15px;
+  outline: none;
+  margin: auto;
+  
+ ;
+ 
+  
+  
+  
+}
+
+.container .head .right-nav #cart-icon  {
+  width: 30px ;
 }
